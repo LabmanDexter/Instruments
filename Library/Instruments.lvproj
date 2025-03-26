@@ -81,28 +81,6 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../builds/Framework/Engine.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="VerQueryValue.vi" Type="VI" URL="../../../builds/Framework/Engine.lvlibp/1abvi3w/vi.lib/Platform/fileVersionInfo.llb/VerQueryValue.vi"/>
 			</Item>
-			<Item Name="Event from Ary I8.vi" Type="VI" URL="../../Private/Polymorphic/Arrays/Event from Ary I8.vi"/>
-			<Item Name="Event from Ary I16.vi" Type="VI" URL="../../Private/Polymorphic/Arrays/Event from Ary I16.vi"/>
-			<Item Name="Event from Ary I32.vi" Type="VI" URL="../../Private/Polymorphic/Arrays/Event from Ary I32.vi"/>
-			<Item Name="Event from Ary I64.vi" Type="VI" URL="../../Private/Polymorphic/Arrays/Event from Ary I64.vi"/>
-			<Item Name="Event from Ary U8.vi" Type="VI" URL="../../Private/Polymorphic/Arrays/Event from Ary U8.vi"/>
-			<Item Name="Event from Ary U16.vi" Type="VI" URL="../../Private/Polymorphic/Arrays/Event from Ary U16.vi"/>
-			<Item Name="Event from Ary U32.vi" Type="VI" URL="../../Private/Polymorphic/Arrays/Event from Ary U32.vi"/>
-			<Item Name="Event from Ary U64.vi" Type="VI" URL="../../Private/Polymorphic/Arrays/Event from Ary U64.vi"/>
-			<Item Name="Event from Boolean.vi" Type="VI" URL="../../Private/Polymorphic/Special/Event from Boolean.vi"/>
-			<Item Name="Event from DBL Ary.vi" Type="VI" URL="../../Private/Polymorphic/Arrays/Event from DBL Ary.vi"/>
-			<Item Name="Event from DBL.vi" Type="VI" URL="../../Private/Polymorphic/Integers/Event from DBL.vi"/>
-			<Item Name="Event from Enum.vi" Type="VI" URL="../../Private/Polymorphic/Special/Event from Enum.vi"/>
-			<Item Name="Event from I8.vi" Type="VI" URL="../../Private/Polymorphic/Integers/Event from I8.vi"/>
-			<Item Name="Event from I16.vi" Type="VI" URL="../../Private/Polymorphic/Integers/Event from I16.vi"/>
-			<Item Name="Event from I32.vi" Type="VI" URL="../../Private/Polymorphic/Integers/Event from I32.vi"/>
-			<Item Name="Event from I64.vi" Type="VI" URL="../../Private/Polymorphic/Integers/Event from I64.vi"/>
-			<Item Name="Event from Ring.vi" Type="VI" URL="../../Private/Polymorphic/Special/Event from Ring.vi"/>
-			<Item Name="Event from String.vi" Type="VI" URL="../../Private/Polymorphic/Special/Event from String.vi"/>
-			<Item Name="Event from U8.vi" Type="VI" URL="../../Private/Polymorphic/Integers/Event from U8.vi"/>
-			<Item Name="Event from U16.vi" Type="VI" URL="../../Private/Polymorphic/Integers/Event from U16.vi"/>
-			<Item Name="Event from U32.vi" Type="VI" URL="../../Private/Polymorphic/Integers/Event from U32.vi"/>
-			<Item Name="Event from U64.vi" Type="VI" URL="../../Private/Polymorphic/Integers/Event from U64.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -232,7 +210,7 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/Development/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D4C0FAFC-477F-4994-8E75-B41E944BA1DF}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Instrument.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/Development/builds/NI_AB_PROJECTNAME/Instrument.lvlibp</Property>
