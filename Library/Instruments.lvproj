@@ -69,6 +69,7 @@
 			</Item>
 			<Item Name="Engine.lvlibp" Type="LVLibp" URL="../../../builds/Framework/Engine.lvlibp">
 				<Item Name="BuildErrorSource.vi" Type="VI" URL="../../../builds/Framework/Engine.lvlibp/1abvi3w/vi.lib/Platform/fileVersionInfo.llb/BuildErrorSource.vi"/>
+				<Item Name="Dflt Data Dir.vi" Type="VI" URL="../../../builds/Framework/Engine.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="Engine.lvclass" Type="LVClass" URL="../../../builds/Framework/Engine.lvlibp/Engine/Library/Engine.lvclass"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../builds/Framework/Engine.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="FileVersionInfo.vi" Type="VI" URL="../../../builds/Framework/Engine.lvlibp/1abvi3w/vi.lib/Platform/fileVersionInfo.llb/FileVersionInfo.vi"/>
@@ -199,7 +200,6 @@
 			<Item Name="version.dll" Type="Document" URL="version.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="VI Name Extract.vi" Type="VI" URL="../../Private/Polymorphic/VI Name Extract.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Instrument" Type="Packed Library">
@@ -210,7 +210,7 @@
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/Development/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D4C0FAFC-477F-4994-8E75-B41E944BA1DF}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">15</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Instrument.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/Development/builds/NI_AB_PROJECTNAME/Instrument.lvlibp</Property>

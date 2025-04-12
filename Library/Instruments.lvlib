@@ -14,6 +14,7 @@ Descendent classes will need to adhere to the override settings, and add more in
 		<Item Name="Measure Msg.lvclass" Type="LVClass" URL="../../Instruments Messages/Measure Msg/Measure Msg.lvclass"/>
 		<Item Name="Power Off Msg.lvclass" Type="LVClass" URL="../../Instruments Messages/Power Off Msg/Power Off Msg.lvclass"/>
 		<Item Name="Request Data Msg.lvclass" Type="LVClass" URL="../../Instruments Messages/Request Data Msg/Request Data Msg.lvclass"/>
+		<Item Name="Select Display Mode Msg.lvclass" Type="LVClass" URL="../../Instruments Messages/Select Display Mode Msg/Select Display Mode Msg.lvclass"/>
 		<Item Name="Send Command Msg.lvclass" Type="LVClass" URL="../../Instruments Messages/Send Command Msg/Send Command Msg.lvclass"/>
 		<Item Name="Take Snapshot Msg.lvclass" Type="LVClass" URL="../../Instruments Messages/Take Snapshot Msg/Take Snapshot Msg.lvclass"/>
 	</Item>
