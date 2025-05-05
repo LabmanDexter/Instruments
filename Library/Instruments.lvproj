@@ -56,6 +56,8 @@
 				<Item Name="Configuration.lvclass" Type="LVClass" URL="../../../builds/Framework/Configuration.lvlibp/Library/Configuration.lvclass"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../../builds/Framework/Configuration.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="../../../builds/Framework/Configuration.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Find First Error.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="../../../builds/Framework/Configuration.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="../../../builds/Framework/Configuration.lvlibp/1abvi3w/vi.lib/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="../../../builds/Framework/Configuration.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="../../../builds/Framework/Configuration.lvlibp/1abvi3w/vi.lib/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="../../../builds/Framework/Configuration.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -63,6 +65,8 @@
 				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="../../../builds/Framework/Configuration.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="../../../builds/Framework/Configuration.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="../../../builds/Framework/Configuration.lvlibp/1abvi3w/vi.lib/Utility/file.llb/Read Lines From File (with error IO).vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="../../../builds/Framework/Configuration.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="../../../builds/Framework/Configuration.lvlibp/1abvi3w/vi.lib/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="../../../builds/Framework/Configuration.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="../../../builds/Framework/Configuration.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="../../../builds/Framework/Configuration.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
@@ -202,18 +206,18 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Instrument" Type="Packed Library">
+			<Item Name="Instruments" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{3A76528B-4AA2-47FA-9C1C-98A6CBEB7D36}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Instrument</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Instruments</Property>
 				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/Development/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D4C0FAFC-477F-4994-8E75-B41E944BA1DF}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Instrument.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/Development/builds/NI_AB_PROJECTNAME/Instrument.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">Instruments.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/Development/builds/NI_AB_PROJECTNAME/Instruments.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -222,7 +226,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{25539084-7F92-4712-BCC5-42732E0BDBE8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B85DCF0D-DE6A-4D2C-B1FC-F7CB8FE2C5B5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Instruments.lvlib</Property>
@@ -235,12 +239,12 @@
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Anduril</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Instrument</Property>
-				<Property Name="TgtF_internalName" Type="Str">Instrument</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Instruments</Property>
+				<Property Name="TgtF_internalName" Type="Str">Instruments</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2025 Anduril</Property>
-				<Property Name="TgtF_productName" Type="Str">Instrument</Property>
+				<Property Name="TgtF_productName" Type="Str">Instruments</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{78139CDF-0CF4-4DB1-831E-8E8C48DE82A9}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Instrument.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Instruments.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
